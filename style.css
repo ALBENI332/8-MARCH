@@ -84,6 +84,12 @@ html, body {
     transition: opacity 1s linear;
 }
 
+@media(max-width: 430px){
+    .card{
+        width: 400px;
+    }
+}
+
 @keyframes card {
     from {
         opacity: 0;
